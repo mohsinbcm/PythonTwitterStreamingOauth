@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Demo App</title>
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+        <script src="/static/js/socketio/socket.io.min.js"></script>
+        <script src="/static/Content/utils.js"></script>
+        <link rel="stylesheet" href="/static/Content/main.css" />        
+    </head>
+    <body >
+        <div class="tweet_area">
+            <div id = "hashtag">
+                <form name="frm1" >
+                    <input type="text" name="hashtag" class="hashtag" readonly="readonly" autocomplete="off"/> Double click to edit
+                </form>
+            </div>
+            <div id="teaxt">
+                <ul id="tw"></ul>
+            </div>
+        </div>
+	<div id="ExternalDiv">
+        &nbsp;</div>
+	<div id="InternalDiv">
+	</div>
+    </body>
+</html>

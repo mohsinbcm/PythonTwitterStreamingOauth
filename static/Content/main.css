@@ -1,0 +1,92 @@
+body{
+	background:#fff;
+	text-align: center;
+	padding-top:50px;
+	font-family: 'Inconsolata', sans-serif;
+}
+p{
+	color:#fff;
+}
+
+h1, h2, h3, h4, h5{
+	font-family: 'Denk One', sans-serif;
+}
+
+.body{
+	width:960px;
+	margin:10px auto;
+	text-align: left;
+}
+
+.tweet_area{
+	width:900px;
+	margin:10px auto;
+	text-align: left;
+	padding:30px;
+	height:400px;
+	background: rgba(255,255,255,0.5);
+	border-radius: 15px;
+	border:solid 1px #ebebeb;
+}
+
+#teaxt {
+	background: #ffffff;
+	margin: 0px auto;
+	overflow-y: scroll;
+	width: 100%;
+	height: 100%;
+}
+
+#tw {
+	list-style-type: none;
+	margin: 0px auto;
+	padding: 0;
+	top: -6em;
+	width: 96%;
+}
+
+.tweet {
+	border-bottom: 1px solid #333333;
+	font-size: 1.2em;
+	height: 6em;
+	padding-top: 0.3em;
+}
+.tweet span{
+	font-size: 20px;
+	text-transform: capitalize;
+	font-weight: 700;
+}
+.tweet span img{
+	float: left;
+	width: 74px;
+}
+table, th, td
+{
+	border: 1px solid black;
+}
+#InternalDiv{
+	display: none;
+	position: fixed;
+	z-index:2001;
+	top: 50%;
+	left: 50%;/**/
+	margin-top: 0px;
+	margin-left: 0px;
+	background: url("/static/Content/loadingBar.gif") no-repeat scroll 0 0 / 145px 145px rgba(63, 39, 39, 0.26);
+	height:145px;
+	width:145px;
+	background-repeat: no-repeat;
+}
+#ExternalDiv
+{
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	position: absolute;
+	margin: 0px;
+	background-color: #000;
+	opacity: 0.0;
+	filter: alpha(opacity:0);
+	z-index: 602;
+	display: none;
+}
